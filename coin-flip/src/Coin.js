@@ -5,7 +5,8 @@ import React from "react";
  * 
  */
 
- function Coin() {
+ function Coin( { game }) {
+  //displays head or tails depending on game passed in.
 
   return (
     <div className="Coin">
